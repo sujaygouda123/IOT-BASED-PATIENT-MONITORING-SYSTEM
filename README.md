@@ -126,6 +126,9 @@ DATA → GPIO 5
    char auth[] = "YourAuthTokenHere";
 
 
+## 🌟 Project Impact
+
+This **IoT-Based Patient Monitoring System** empowers continuous, real-time health monitoring outside clinical settings, enhancing patient care by enabling early detection of abnormalities such as irregular heart rate or low oxygen levels. It reduces the need for frequent hospital visits, lowering healthcare costs and easing the burden on medical facilities. By leveraging affordable sensors and wireless connectivity, this system makes remote health monitoring accessible to underserved communities and improves overall health outcomes through timely intervention and data-driven decisions.
 
 
 
