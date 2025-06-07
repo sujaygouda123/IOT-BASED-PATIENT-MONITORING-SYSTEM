@@ -125,10 +125,34 @@ DATA → GPIO 5
    ```cpp
    char auth[] = "YourAuthTokenHere";
 
+  
+## 📚 Libraries Required
+
+This project uses the following Arduino libraries. Please install them via the Arduino Library Manager or download from their official repositories:
+
+| Library Name         | Description                          | Installation Method                     |
+|----------------------|------------------------------------|---------------------------------------|
+| **Blynk**            | Connects ESP32 with Blynk app      | Arduino Library Manager or [GitHub](https://github.com/blynkkk/blynk-library) |
+| **DHT sensor library** | For DHT11/DHT22 temperature & humidity sensors | Arduino Library Manager or [GitHub](https://github.com/adafruit/DHT-sensor-library) |
+| **OneWire**          | For 1-wire communication protocol  | Arduino Library Manager or [GitHub](https://github.com/PaulStoffregen/OneWire) |
+| **DallasTemperature**| For DS18B20 temperature sensor     | Arduino Library Manager or [GitHub](https://github.com/milesburton/Arduino-Temperature-Control-Library) |
+| **MAX30105**         | For MAX30105 pulse oximeter sensor | Arduino Library Manager or [GitHub](https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library) |
+
+### How to install libraries via Arduino IDE:
+
+1. Open Arduino IDE.
+2. Go to **Sketch > Include Library > Manage Libraries**.
+3. Search for the library name.
+4. Click **Install** on the matching result.
+
+Make sure you install all required libraries before compiling the code.
+
 
 ## 🌟 Project Impact
 
 This **IoT-Based Patient Monitoring System** empowers continuous, real-time health monitoring outside clinical settings, enhancing patient care by enabling early detection of abnormalities such as irregular heart rate or low oxygen levels. It reduces the need for frequent hospital visits, lowering healthcare costs and easing the burden on medical facilities. By leveraging affordable sensors and wireless connectivity, this system makes remote health monitoring accessible to underserved communities and improves overall health outcomes through timely intervention and data-driven decisions.
+
+
 
 
 
